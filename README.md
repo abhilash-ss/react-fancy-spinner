@@ -13,16 +13,14 @@ npm install --save react-fancy-spinner
 ## Usage
 
 ```jsx
-import React, { Component } from 'react'
+import React from 'react';
 
-import MyComponent from 'react-fancy-spinner'
-import 'react-fancy-spinner/dist/index.css'
+import { Roller } from 'react-fancy-spinner';
+import 'react-fancy-spinner/dist/index.css';
 
-class Example extends Component {
-  render() {
-    return <MyComponent />
-  }
-}
+const App = () => <Roller color='#0000ff' />;
+
+export default App;
 ```
 
 ## License
