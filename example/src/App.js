@@ -1,10 +1,8 @@
-import React from 'react'
+import React from 'react';
 
-import { ExampleComponent } from 'react-fancy-spinner'
-import 'react-fancy-spinner/dist/index.css'
+import { ExampleComponent } from 'react-fancy-spinner';
+import 'react-fancy-spinner/dist/index.css';
 
-const App = () => {
-  return <ExampleComponent text="Create React Library Example 😄" />
-}
+const App = () => <ExampleComponent color='#0000ff' />;
 
-export default App
+export default App;
