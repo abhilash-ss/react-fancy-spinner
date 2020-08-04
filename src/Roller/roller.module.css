@@ -1,6 +1,5 @@
 .roller {
   --var-color: black;
-  --var-size: 80px;
   display: inline-block;
   position: relative;
   width: 80px;
